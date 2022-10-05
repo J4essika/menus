@@ -12,13 +12,17 @@
     --gray:#a3ad9a;
 }
 
+html{
+    background-color:var(--black);
+   
+}
 
 nav{
     text-align: center;
     background:linear-gradient(to left,chartreuse,#120a8f,#64cef1cb);
     padding: 30px;
-   
     
+
 }
   
 li,a{
@@ -28,16 +32,16 @@ li,a{
     font-weight: 100;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:var(--gray);
-
-    
-
+    font-size: larger;
 }
 
 li:hover{
     background:var(--black);
     border-radius: 10px;
     padding: 10px;
-
+    color: azure;
+    text-decoration: underline;
+    cursor:pointer;
 }
 
 
@@ -45,8 +49,27 @@ li:hover{
 video{
     position:fixed; 
     width: 100%;
-
-   
 }
 
 
+span{
+    position: absolute;
+    color: aliceblue;
+    display: block;
+    font-size: 1.17em;
+    margin-inline-start: 1px;
+    margin-inline-end: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+    
+}
+
+#h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: greenyellow;
+    text-align: center;
+    padding: 20px;
+    font-weight: 100;
+    
+    
+}
