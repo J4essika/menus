@@ -12,9 +12,10 @@
     --gray:#a3ad9a;
 }
 
-html{
-    background-color:var(--black);
-    
+body{
+    background-color:rgb(0, 0, 0);
+    max-width: 100%;
+    min-height: 20%;
    
 }
 
@@ -24,7 +25,6 @@ nav{
     padding: 30px;
     
     
-
 }
   
 li,a{
@@ -32,7 +32,7 @@ li,a{
     display: inline;
     word-spacing: 50px;
     font-weight: 100;
-    font-family: tecnology;
+    font-family: Arial, Helvetica, sans-serif;
     color:var(--gray);
     font-size: larger;
 }
@@ -51,11 +51,12 @@ li:hover{
 video{
     position:fixed; 
     width: 100%;
+    padding: auto;
+    
 }
 
 
 main{
-    
     text-indent: 0.1px;
     text-align: center;
     position: absolute;
@@ -66,32 +67,36 @@ main{
     margin-inline-end: 50px;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    
-    
 
 }
 
-#h2{
-    font-family: tecnology;
-    color: greenyellow;
+#titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color:beige;
     text-align: center;
     padding: 20px;
-    font-weight: 100;
-
-    
-    
-}
-
-@font-face{
-    font-family: "tecnology";
-    src:url(karmatic_arcade/ka1.ttf)
+    font-weight: bolder;
+    text-shadow: 1px 5px 5px var(--azul-marinho);
 
 
 }
 
+footer{
+    background:linear-gradient(to left,chartreuse,#120a8f,#64cef1cb);
+    word-spacing: 0;
+    padding: 10px;
+    
+}
 
     
     
-#roda-pe{
-    
+#link{
+    word-spacing: 0px;
+    font-size: medium;
+}
+
+#link:hover{
+    color: #ffff;
+    text-decoration: underline;
+    background-color: var(--black);
 }
